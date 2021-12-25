@@ -8,5 +8,5 @@
 </i>
 <br>
 <p>Fotoresistor, juga dikenal sebagai LDR (resistor tergantung cahaya), adalah komponen yang terbuat dari semikonduktor. Sebuah fotoresistor sensitif terhadap cahaya. Resistansinya berkurang saat pencahayaan meningkat (Gambar 1.15). Fotoresistor memiliki banyak kegunaan, misalnya, pembukaan pintu otomatis.<p>
-<img src="ldr-grafik" alt="LDR-grafik">
+<img src="ldr-grafik.jpg" alt="LDR-grafik">
 <p style="font-size: 9pt;">Variasi resistansi LDR sebagai fungsi penerangan<p>
