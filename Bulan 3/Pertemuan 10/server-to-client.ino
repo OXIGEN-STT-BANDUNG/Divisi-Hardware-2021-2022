@@ -46,7 +46,6 @@ void setup() {
   server.on("/", handle_OnConnect);
   server.onNotFound(handle_NotFound);
   server.begin();
-  dht.begin();
   timeClient.begin();
 }
 void loop() {
