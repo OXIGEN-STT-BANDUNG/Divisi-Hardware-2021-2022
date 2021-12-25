@@ -62,5 +62,28 @@
 </ul>
 
 <hr>
+<h3>Rangkaian relay dan cara kerjanya</h3>
+
+<p>Di bawah ini merupakan contoh rangkaian relay yang menggunakan satu buah transistor sebagai drivernya. Transistor yang digunakan bisa dari jenis NPN maupun PNP. Anda tinggal menyesuaikan pemberian bias tegangannya saja.</p>
+
+<img src="Contoh-rangkaian-relay.jpg">
+
+<ul>
+	<li>Saat basis transistor tidak menerima bias tegangan, maka transistor dalam kondisi Off</li>
+	<li>Hambatan pada kolektor – emitor transistor sangat besar. Transistor berperilaku seperti saklar terbuka</li>
+	<li>Arus listrik dari Vcc tidak dapat mengalir melewati kumparan relay</li>
+	<li>Ketika basis transistor diberikan tegangan bias, maka transistor akan mulai aktif</li>
+	<li>Hambatan pada kolektor – emitor transistor menjadi sangat kecil sehingga memungkinkan dilewati oleh arus listrik</li>
+	<li>Arus listrik Vcc mengalir melewati kumparan relay dan kolektor – emitor</li>
+	<li>Karena kumparan mendapatkan arus listrik, maka akan muncul medan magnet yang akan menarik tuas switch</li>
+	<li>Relay akan kembali Off jika tegangan bias basis transistor diputuskan</li>
+</ul>
+
+<p>Besar tegangan bias yang dibutuhkan oleh basis transistor cukup keci, sekitar 2V sampai 5V saja. Dengan tegangan bias sekecil itu, transistor dapat menggerakkan relay untuk mengalirkan tegangan yang jauh lebih besar.</p>
+
+<p>Transistor yang digunakan untuk membuat rangkaian relay dapat disesuaikan dengan kapasitas relay yang akan dipakai. Rangkaian diatas dapat difungsikan untuk mengendalikan lampu maupun motor listrik.</p>
+
+<hr>
 <p>Referensi :</p>
 <a href="https://teknikelektronika.com/pengertian-relay-fungsi-relay/">teknikelektronika.com/pengertian-relay-fungsi-relay</a>
+<a href="https://www.ruangteknisi.com/rangkaian-relay-sederhana/">www.ruangteknisi.com/rangkaian-relay-sederhana/</a>
