@@ -1,3 +1,3 @@
 # Pertemuan 4
 
-### Sensor & Lampu
+### Sensor & Relay + Lampu
