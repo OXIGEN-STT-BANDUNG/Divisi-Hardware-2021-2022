@@ -83,7 +83,11 @@
 
 <p>Transistor yang digunakan untuk membuat rangkaian relay dapat disesuaikan dengan kapasitas relay yang akan dipakai. Rangkaian diatas dapat difungsikan untuk mengendalikan lampu maupun motor listrik.</p>
 
+<h4>Sekarang yuk coba simulasi rangkaian diatas dengan tinkercad :</h4>
+<a href="https://www.tinkercad.com/">Gabung Tinkercad</a>
+
 <hr>
 <p>Referensi :</p>
 <a href="https://teknikelektronika.com/pengertian-relay-fungsi-relay/">teknikelektronika.com/pengertian-relay-fungsi-relay</a>
+<br>
 <a href="https://www.ruangteknisi.com/rangkaian-relay-sederhana/">www.ruangteknisi.com/rangkaian-relay-sederhana/</a>
