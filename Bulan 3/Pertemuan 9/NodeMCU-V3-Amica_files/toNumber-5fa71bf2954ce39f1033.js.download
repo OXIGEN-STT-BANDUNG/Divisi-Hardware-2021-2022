@@ -1,2 +1,0 @@
-(window.elysiumJsonp=window.elysiumJsonp||[]).push([[8],{tLB3:function(t,e,n){var i=n("jXQH"),r=n("GoyQ"),f=n("/9aa"),o=NaN,u=/^[-+]0x[0-9a-f]+$/i,s=/^0b[01]+$/i,a=/^0o[0-7]+$/i,p=parseInt;t.exports=function(t){if("number"==typeof t)return t;if(f(t))return o;if(r(t)){var e="function"==typeof t.valueOf?t.valueOf():t;t=r(e)?e+"":e}if("string"!=typeof t)return 0===t?t:+t;t=i(t);var n=s.test(t);return n||a.test(t)?p(t.slice(2),n?2:8):u.test(t)?o:+t}}}]);
-//# sourceMappingURL=toNumber-5fa71bf2954ce39f1033.js.map
