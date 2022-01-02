@@ -20,11 +20,11 @@
 <h2>Pin fungsi</h2>
 <table>
 	<thead>
-		<th>
-			<td>Pin</td>
-			<td>Nama</td>
-			<td>Deskripsi</td>
-		</th>
+		<tr>
+			<th>Pin</th>
+			<th>Nama</th>
+			<th>Deskripsi</th>
+		</tr>
 	</thead>
 	<tbody>
 		<tr>
