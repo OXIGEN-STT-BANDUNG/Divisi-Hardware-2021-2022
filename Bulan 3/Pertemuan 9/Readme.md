@@ -163,12 +163,144 @@
 
 <figure>
 	<img src="namica.jpg" alt="Amica-model">
-	<figcaption>Amica NodeMCU berukuran 49mm x 26mm dengan ruang pin standar 0,1″ antar pin dan 0,9″ antar baris. Amica NodeMCU berukuran sekitar 25% lebih kecil daripada NodeMCU model LoLin yang sangat kompatibel</figcaption>
+	<figcaption>Amica NodeMCU berukuran 49mm x 26mm dengan ruang pin standar 0,1″ antar pin dan 0,9″ antar baris. Amica NodeMCU berukuran sekitar 25% lebih kecil daripada NodeMCU model LoLin yang sangat kompatibel</figcaption><br>
 </figure>
 <figure>
 	<img src="nlolin.jpg" alt="Lolin-model">
 	<figcaption>NodeMCU gaya LoLin berukuran 58mm x 32mm dengan jarak pin 0,1″ antar pin dan 1,1″ antar baris</figcaption>
 </figure>
+
+<h3>NodeMCU teknikal spesifikasi</h3>
+<table>
+	<thead>
+		<tr>
+			<th>Kriteria</th>
+			<th>Official (Amica) NodeMCU</th>
+			<th>LoLin NodeMCU</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Microcontroller</td>
+			<td>ESP-8266 32 bit</td>
+			<td>ESP-8266 32 bit</td>
+		</tr>
+		<tr>
+			<td>NodeMCU Model</td>
+			<td>Amica</td>
+			<td>Clone LoLin</td>
+		</tr>
+		<tr>
+			<td>Dimensi NodeMCU</td>
+			<td>49mm x 26mm</td>
+			<td>58mm x 32mm</td>
+		</tr>
+		<tr>
+			<td>Jarak pin</td>
+			<td>0.9"(22.86mm)</td>
+			<td>1.1"(27.94mm)</td>
+		</tr>
+		<tr>
+			<td>Clock speed</td>
+			<td>80 MHz</td>
+			<td>80 MHz</td>
+		</tr>
+		<tr>
+			<td>USB ke serial</td>
+			<td>CP2102</td>
+			<td>CH340G</td>
+		</tr>
+		<tr>
+			<td>Konektor USB</td>
+			<td>Micro USB</td>
+			<td>Micro USB</td>
+		</tr>
+		<tr>
+			<td>Voltase operasi</td>
+			<td>3.3V</td>
+			<td>3.3V</td>
+		</tr>
+		<tr>
+			<td>Input voltase</td>
+			<td>4.5V - 10V</td>
+			<td>4.5V - 10V</td>
+		</tr>
+		<tr>
+			<td>Flash Memory/SRAM</td>
+			<td>4MB/64KB</td>
+			<td>4MB/64KB</td>
+		</tr>
+		<tr>
+			<td>Digital IO pin</td>
+			<td>11</td>
+			<td>11</td>
+		</tr>
+		<tr>
+			<td>Analog IO pin</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>ADC Range</td>
+			<td>0 - 3.3V</td>
+			<td>0 - 3.3V</td>
+		</tr>
+		<tr>
+			<td>UART/SPI/12c</td>
+			<td>1/1/1</td>
+			<td>1/1/1</td>
+		</tr>
+		<tr>
+			<td>WiFi Built in</td>
+			<td>802.11 b/g/n</td>
+			<td>802.11 b/g/n</td>
+		</tr>
+		<tr>
+			<td>Temperatur</td>
+			<td>-40C - 125C</td>
+			<td>-40C - 125C</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>PinOut dan fungsi</h3>
+<figure>
+	<img src="ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png">
+	<figcaption>ESP8266 model Amica, dengan ESP-12e ditanamkan. Berikut adalah pin-pinnnya</figcaption>
+</figure>
+<p>Berikut adalah fungsi-fungsi dari pinnya</p>
+<ul>
+	<li>vin</li>
+	<p>Dapat digunakan untuk langsung mensuplai NodeMCU/ESP8266 dan periferalnya. Daya yang dikirimkan pada VIN diatur melalui regulator onboard pada modul NodeMCU – Anda juga dapat memasok 5V yang diatur ke pin VIN</p>
+	<li>3.3V</li>
+	<p>Pin adalah output dari pengatur tegangan onboard dan dapat digunakan untuk memasok daya ke komponen eksternal.</p>
+	<li>G / GND</li>
+	<p>Pin ground dari ESP8266/NodeMCU</p>
+	<li>SCL dan SDA</li>
+	<p>SCL dan SDA adalah I2C pin. Digunakan untuk menghubungkan sensor dan periferal I2C. I2C Master dan I2C Slave keduanya didukung. Fungsionalitas antarmuka I2C dapat direalisasikan secara terprogram, dan frekuensi clock maksimum adalah 100 kHz. Perlu dicatat bahwa frekuensi clock I2C harus lebih tinggi daripada frekuensi clock paling lambat dari perangkat slave.</p>
+	<li>GPIO</li>
+	<p>NodeMCU/ESP8266 memiliki 17 pin GPIO yang dapat ditetapkan untuk fungsi seperti I2C, I2S, UART, PWM, IR Remote Control, Lampu LED dan Tombol secara terprogram. Setiap GPIO yang diaktifkan secara digital dapat dikonfigurasi ke pull-up atau pull-down internal, atau diatur ke impedansi tinggi. Ketika dikonfigurasi sebagai input, ini juga dapat diatur ke edge-trigger atau level-trigger untuk menghasilkan interupsi CPU.</p>
+	<li>ADC0 / ADC Channel</li>
+	<p>NodeMCU tertanam dengan SAR ADC presisi 10-bit. Kedua fungsi tersebut dapat diimplementasikan menggunakan ADC. Pengujian tegangan catu daya pin VDD3P3 dan pengujian tegangan input pin TOUT. Namun, penerapannya tidak dapat dilakukan secara bersamaan.</p>
+	<li>RXD0, TXD0, TXD1, RXD2, dan TXD2</li>
+	<p>NodeMCU/ESP8266 memiliki 2 antarmuka UART (UART0 dan UART1) yang menyediakan komunikasi asinkron (RS232 dan RS485), dan dapat berkomunikasi hingga 4,5 Mbps. UART0 (TXD0, RXD0, RST0 & CTS0) dapat digunakan untuk komunikasi. Namun, UART1 (TXD1 pin) hanya menampilkan sinyal transmisi data sehingga biasanya digunakan untuk mencetak log.</p>
+	<li>SCLK, MISO, MOSI, CS</li>
+	<p>NodeMCU/ESP8266 memiliki dua SPI (SPI dan HPI) dalam mode slave dan master. SPI ini juga mendukung fitur SPI tujuan umum berikut:
+		1. 4 mode waktu transfer format SPI
+		2. Hingga 80 MHz dan jam terbagi 80 MHz
+		3. FIFO hingga 64-Byte</p>
+	<li>SDIO</li>
+	<p>NodeMCU/ESP8266 memiliki fitur Secure Digital Input/Output Interface (SDIO) yang digunakan untuk antarmuka langsung kartu SD. 4-bit 25 MHz SDIO v1.1 dan 4-bit 50 MHz SDIO v2.0 didukung.</p>
+	<li>PWIM pin</li>
+	<p>Papan memiliki 4 saluran Pulse Width Modulation (PWM). Output PWM dapat diimplementasikan secara terprogram dan digunakan untuk menggerakkan motor digital dan LED. Rentang frekuensi PWM dapat disesuaikan dari 1000 s hingga 10000 s (100 Hz dan 1 kHz).</p>
+	<li>Kontrol pin</li>
+	<p>digunakan untuk mengontrol NodeMCU/ESP8266. Pin-pin ini termasuk pin Chip Enable (EN), pin Reset (RST) dan pin WAKE.
+		1. EN: Chip ESP8266 diaktifkan ketika pin EN ditarik TINGGI. Ketika ditarik RENDAH chip bekerja pada daya minimum.
+		2. RST: Pin RST digunakan untuk mereset chip ESP8266.
+		3. WAKE: Wake pin digunakan untuk membangunkan chip dari deep-sleep.
+</p>
+</ul>
+
 
 <h2>Referensi</h2>
 
