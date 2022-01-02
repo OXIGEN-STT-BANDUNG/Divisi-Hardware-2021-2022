@@ -4,11 +4,15 @@
 
 ### PHOTORESISTOR (LDR)
 
-<i>Fotoresistor, perangkat yang resistansinya berubah dengan cahaya sekitar, sel surya yang daya keluarannya sebanding dengan cahaya sekitar, fotodioda yang arus keluarannya sebanding dengan cahaya dan thermopiles yang mengubah cahaya menjadi suhu menjadi tegangan.
-</i>
+<blockquote>Fotoresistor adalah resistor peka cahaya yang resistansinya berkurang seiring dengan meningkatnya intensitas cahaya.
+</blockquote>
 <br>
-<p>Fotoresistor, juga dikenal sebagai LDR (resistor tergantung cahaya), adalah komponen yang terbuat dari semikonduktor. Sebuah fotoresistor sensitif terhadap cahaya. Resistansinya berkurang saat pencahayaan meningkat (Gambar 1.15). Fotoresistor memiliki banyak kegunaan, misalnya, pembukaan pintu otomatis.<p>
-<img src="ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png" alt="LDR-grafik">
-<p style="font-size: 9pt;">Variasi resistansi LDR sebagai fungsi penerangan<p>
+<p>Photoresistor, juga dikenal sebagai LDR (Light Dependant Resistor) adalah perangkat peka cahaya yang paling sering digunakan untuk menunjukkan ada tidaknya cahaya, atau untuk mengukur intensitas cahaya. Dalam gelap, resistansinya sangat tinggi, terkadang hingga 1 MΩ, tetapi ketika sensor LDR terkena cahaya, resistansinya turun drastis, bahkan hingga beberapa ohm, tergantung pada intensitas cahaya. LDR memiliki sensitivitas yang bervariasi dengan panjang gelombang cahaya yang diterapkan dan merupakan perangkat nonlinier.<p>
+<figure>
+	<img src="favpng_light-photoresistor-sensor-photodetector.png" alt="LDR-grafik">
+	<figcaption>Gambar fisik Photoresistor/LDR</figcaption>
+</figure>
+
+
 
 <i>source: https://www.sciencedirect.com/topics/engineering/photoresistors</i>
