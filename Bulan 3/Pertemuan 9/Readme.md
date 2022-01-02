@@ -154,7 +154,7 @@
 
 <h2>NodeMCU</h2>
 
-<blockquote>NodeMCU (Node MicroController Unit) adalah lingkungan pengembangan perangkat lunak dan perangkat keras open-source yang dibangun di sekitar System-on-a-Chip (SoC) murah yang disebut ESP8266. ESP8266, dirancang dan diproduksi oleh Espressif Systems, berisi elemen penting komputer: CPU, RAM, jaringan (WiFi), dan bahkan sistem operasi modern dan SDK. Itu menjadikannya pilihan yang sangat baik untuk semua jenis proyek Internet of Things (IoT).</blockquote>
+<blockquote><i>NodeMCU (Node MicroController Unit) adalah lingkungan pengembangan perangkat lunak dan perangkat keras open-source yang dibangun di sekitar System-on-a-Chip (SoC) murah yang disebut ESP8266. ESP8266, dirancang dan diproduksi oleh Espressif Systems, berisi elemen penting komputer: CPU, RAM, jaringan (WiFi), dan bahkan sistem operasi modern dan SDK. Itu menjadikannya pilihan yang sangat baik untuk semua jenis proyek Internet of Things (IoT).</i></blockquote>
 
 <h3>NodeMCU Model</h3>
 <p>NodeMCU tersedia dalam berbagai model paket. Umum untuk semua desain adalah inti ESP8266 dasar. Desain berdasarkan arsitektur telah mempertahankan tata letak standar 30-pin. Beberapa desain menggunakan tapak sempit (0,9″) yang lebih umum, sementara yang lain menggunakan tapak lebar (1,1″) – pertimbangan penting yang harus diperhatikan.</p>
@@ -162,11 +162,11 @@
 <p>The most common models of the NodeMCU are the Amica (based on the standard narrow pin-spacing) and the LoLin which has the wider pin spacing and larger board. The open-source design of the base ESP8266 enables the market to design new variants of the NodeMCU continually.</p>
 
 <figure>
-	<img src="NodeMCU-V3-Amica.png" alt="Amica-model">
+	<img src="namica.jpg" alt="Amica-model">
 	<figcaption>Amica NodeMCU berukuran 49mm x 26mm dengan ruang pin standar 0,1″ antar pin dan 0,9″ antar baris. Amica NodeMCU berukuran sekitar 25% lebih kecil daripada NodeMCU model LoLin yang sangat kompatibel</figcaption>
 </figure>
 <figure>
-	<img src="NodeMCU-V3-Lolin.png" alt="Lolin-model">
+	<img src="nlolin.jpg" alt="Lolin-model">
 	<figcaption>NodeMCU gaya LoLin berukuran 58mm x 32mm dengan jarak pin 0,1″ antar pin dan 1,1″ antar baris</figcaption>
 </figure>
 
