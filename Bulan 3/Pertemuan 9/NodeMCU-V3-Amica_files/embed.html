@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://personalization.vidio.com/embed.html -->
+<html class="fonts-loaded" lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>View and share your videos - Vidio.com</title><script src="./ahoy-falcon-2020-11-02-04-35-27.js.download" defer="defer" crossorigin="true"></script><script src="./embed-internal.7e1a14fcffbb03c7df74.js.download" crossorigin="true"></script><script>window.ahoyUserDefinedConfig = {
+        sendBatch: !0,
+        environment: 'production',
+        plentyHostnameProduction: 'https://cdp.vidio.com',
+        plentyHostnameStaging: 'https://cdp.int.vidio.com'
+      };
+
+      urlParams = new URLSearchParams(window.location.search);
+
+      window.ahoy = {};
+      window.ahoy_q = [];
+      window.ahoy.track = function (a, o) {
+        window.ahoy_q.push([a, o]);
+      };
+      window.onload = function() {
+        var giveUpCount = 1;
+        var interval = setInterval(function() {
+          if (window.AhoyEvent) {
+            window.AhoyEvent.sendPageviewEvent();
+            clearInterval(interval);
+          };
+          if (giveUpCount >= 10) {
+            console.error("AhoyPageviewEvent is not loaded.");
+            clearInterval(interval);
+          }
+          giveUpCount += 1;
+        }, 100);
+      };</script></head><body></body></html>
