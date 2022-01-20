@@ -23,7 +23,7 @@
 <figure>
 	<img src="resistor-light-dependent-photoresistor-structure-01.svg" alt="Struktur 1 LDR">
 	<img src="resistor-light-dependent-photoresistor-structure-02.svg">
-</figure>
+  </figure>
 
 <u><b>Tipe berdasarkan materialnya</b></u>
 <ol>

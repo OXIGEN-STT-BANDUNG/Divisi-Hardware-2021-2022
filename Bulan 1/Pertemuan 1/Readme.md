@@ -1,5 +1,6 @@
 # Pertemuan 1
 
+<<<<<<< HEAD
 ### Mengontrol led menggunakan arduino
 
 <h3>Berikut adalah rangkaian led sederhana</h3>
@@ -37,3 +38,6 @@
 <br>
 <i>Link pemutaran 2</i>
 <a href="https://youtu.be/95J__ZFfKoM">Pertemuan 1: Mengontrol led menggunakan arduino</a>
+=======
+<h1>Tinkercad</h1>
+>>>>>>> a494f233e28859661f6cd5e0e4aa965b1152ae49
