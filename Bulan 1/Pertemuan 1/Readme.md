@@ -1,6 +1,5 @@
 # Pertemuan 1
 
-<<<<<<< HEAD
 ### Mengontrol led menggunakan arduino
 
 <h3>Berikut adalah rangkaian led sederhana</h3>
@@ -33,11 +32,11 @@
 	<li>Nyala lampu led dapat di manipulasi/dikontrol dengan kode melalui fitur <i>code</i>. Untuk lebih lengkapnya tonton video dibawah.</li>
 </ol>
 <h3>Untuk materi lebih detail, berikut video penjelasannya.</h3>
-<i>Link pemutaran 1</i>
+<i>Link pemutaran 1</i><br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95J__ZFfKoM?start=213" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
-<i>Link pemutaran 2</i>
+<i>Link pemutaran 2</i><br>
 <a href="https://youtu.be/95J__ZFfKoM">Pertemuan 1: Mengontrol led menggunakan arduino</a>
 =======
 <h1>Tinkercad</h1>
->>>>>>> a494f233e28859661f6cd5e0e4aa965b1152ae49
+
