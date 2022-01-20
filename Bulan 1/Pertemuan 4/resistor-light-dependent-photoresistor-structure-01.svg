@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1009" height="434" viewBox="0, 0, 1009, 434">
+  <g id="Layer_1">
+    <g>
+      <path d="M0,0 L1009,0 L1009,434 L0,434 L0,0 z" fill="#FFFFFF"/>
+      <g>
+        <g>
+          <g>
+            <path d="M513.34,420.656 C413.652,420.656 332.84,387.973 332.84,347.656 C332.84,307.339 413.652,274.656 513.34,274.656 C613.027,274.656 693.84,307.339 693.84,347.656 C693.84,387.973 613.027,420.656 513.34,420.656 z" fill="#C9C9C9"/>
+            <path d="M513.34,420.656 C413.652,420.656 332.84,387.973 332.84,347.656 C332.84,307.339 413.652,274.656 513.34,274.656 C613.027,274.656 693.84,307.339 693.84,347.656 C693.84,387.973 613.027,420.656 513.34,420.656 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+          </g>
+          <path d="M332.34,248.156 L693.34,248.156 L693.34,347.156 L332.34,347.156 L332.34,248.156 z" fill="#C9C9C9"/>
+          <g>
+            <path d="M332.84,347.656 L332.84,248.656" fill="#C9C9C9"/>
+            <path d="M332.84,347.656 L332.84,248.656" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+          </g>
+          <g>
+            <path d="M693.84,347.656 L693.84,248.656" fill="#C9C9C9"/>
+            <path d="M693.84,347.656 L693.84,248.656" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M513.34,315.656 C413.652,315.656 332.84,282.973 332.84,242.656 C332.84,202.339 413.652,169.656 513.34,169.656 C613.027,169.656 693.84,202.339 693.84,242.656 C693.84,282.973 613.027,315.656 513.34,315.656 z" fill="#FFFFFF"/>
+            <path d="M513.34,315.656 C413.652,315.656 332.84,282.973 332.84,242.656 C332.84,202.339 413.652,169.656 513.34,169.656 C613.027,169.656 693.84,202.339 693.84,242.656 C693.84,282.973 613.027,315.656 513.34,315.656 z" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+          </g>
+          <path d="M332.34,143.156 L693.34,143.156 L693.34,242.156 L332.34,242.156 L332.34,143.156 z" fill="#FFFFFF"/>
+          <path d="M332.84,242.656 L332.84,143.656" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+          <path d="M693.84,242.656 L693.84,143.656" fill-opacity="0" stroke="#000000" stroke-width="3"/>
+        </g>
+        <path d="M512.84,215.656 C412.214,215.656 330.64,182.973 330.64,142.656 C330.64,102.339 412.214,69.656 512.84,69.656 C613.466,69.656 695.04,102.339 695.04,142.656 C695.04,182.973 613.466,215.656 512.84,215.656 z" fill="#000000"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 216.901, 199.156)">
+        <tspan x="-86.31" y="6.5" font-family="Avenir-Medium" font-size="36" fill="#656565">Active film</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 216.901, 59.656)">
+        <tspan x="-46.638" y="-14" font-family="Avenir-Medium" font-size="36" fill="#656565">Metal </tspan>
+        <tspan x="-60.714" y="35" font-family="Avenir-Medium" font-size="36" fill="#656565">contact</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 825.901, 80.156)">
+        <tspan x="-98.982" y="-18.5" font-family="Avenir-Medium" font-size="36" fill="#656565">Other metal </tspan>
+        <tspan x="-60.714" y="30.5" font-family="Avenir-Medium" font-size="36" fill="#656565">contact</tspan>
+      </text>
+      <text transform="matrix(1, 0, 0, 1, 216.901, 306.156)">
+        <tspan x="-78.336" y="8.5" font-family="Avenir-Medium" font-size="36" fill="#656565">Substrate</tspan>
+      </text>
+      <g>
+        <path d="M217.166,321.374 C240.245,364.576 309.04,356.454 424.691,372.749" fill-opacity="0" stroke="#A3A3A3" stroke-width="6"/>
+        <path d="M424.691,372.749 L419.857,378.1 L436.562,374.502 L421.61,366.229 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="6" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M217.166,212.374 C240.245,255.576 309.04,247.454 424.691,263.749" fill-opacity="0" stroke="#A3A3A3" stroke-width="6"/>
+        <path d="M424.691,263.749 L419.857,269.1 L436.562,265.502 L421.61,257.229 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="6" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M217.166,98.374 C233.125,140.183 283.98,131.039 368.516,143.215" fill-opacity="0" stroke="#A3A3A3" stroke-width="6"/>
+        <path d="M368.516,143.215 L363.64,148.528 L380.373,145.063 L365.487,136.671 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="6" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path d="M834.985,119.05 C814.639,161.757 752.713,153.177 648.992,167.926" fill-opacity="0" stroke="#A3A3A3" stroke-width="6"/>
+        <path d="M648.992,167.926 L652.055,161.398 L637.126,169.711 L653.84,173.265 z" fill="#A3A3A3" fill-opacity="1" stroke="#A3A3A3" stroke-width="6" stroke-opacity="1"/>
+      </g>
+      <path d="M608.401,79.906 L602.73,95.209 L455.541,95.209 L448.663,114.51 L594.476,114.51 L586.223,138.222 L448.663,138.222 L441.785,158.075 L576.594,158.075 L569.716,176.824 L433.532,176.824 L425.278,196.329 L558.711,196.329 L551.833,214.874" fill-opacity="0" stroke="#FFFFFF" stroke-width="8"/>
+    </g>
+  </g>
+</svg>
