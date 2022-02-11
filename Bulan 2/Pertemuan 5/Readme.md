@@ -116,7 +116,55 @@
 
 <h2>Diode</h2>
 <h3>Definisi</h3>
-
+<br>
+<img src="diode.png">
+<p>Dioda (diode) adalah komponen elektronika aktif yang terbuat dari bahan semikonduktor dan mempunyai fungsi untuk menghantarkan arus listrik ke satu arah tetapi menghambat arus listrik dari arah sebaliknya.</p>
+<p>Dalam ilmu fisika dioda digunakan untuk penyeimbang arah rangkaian elektronika. Elektronika memiliki dua terminal yaitu anoda berarti positif dan katoda berarti negatif. Prinsip kerja dari anode berdasarkan teknologi pertemuan positif dan negative semikonduktor. Sehingga anode dapat menghantarkan arus litrik dari anoda menuju katoda, tetapi tika sebaliknya katoda ke anoda.</p>
+<h3>Fungsi Dioda</h3>
+<ul>
+	<li>Untuk alat sensor panas, misalnya dalam amplifier.</li>
+	<li>Sebagai sekering(saklar) atau pengaman.</li>
+	<li>Untuk rangkaian clamper dapat memberikan tambahan partikel DC untuk sinyal AC.</li>
+	<li>Untuk menstabilkan tegangan pada voltage regulator</li>
+	<li>Untuk penyearah</li>
+	<li>Untuk indikator</li>
+	<li>Untuk alat menggandakan tegangan.</li>
+	<li>Untuk alat sensor cahaya, biasanya menggunakan dioda photo.</li>
+</ul>
+<br>
+<h3>Simbol Dioda</h3>
+<img src="simbol-diode.png">
+<br>
+<h3>Jenis Dioda</h3>
+<img src="Diodes-symbol.png">
+<ol>
+	<li>PN Junction Diode: Dioda standar yang terdiri dari susunan PN. Dioda jenis ini adalah diode yang umum digunakan di pasaran (disebut juga diode generik), digunakan terutama sebagai penyearah arus.</li>
+	<li>Light Emitting Diode (LED): Saat dialiri arus forward-bias, LED akan mengeluarkan cahaya. LED saat ini umum digunakan sebagai alat penerangan dan beberapa jenis digunakan untuk menggantikan lampu fluorescent.</li>
+	<li>Laser Diode: Dioda jenis laser juga menghasilkan cahaya, namun cahaya yang dihasilkan adalah cahaya koheren. Aplikasi diode laser adalah perangkat pembaca CD dan DVD dan laser pointer.</li>
+	<li>Photodiode: Photodiode dapat menghasilkan energi listrik apabila daerah PN junction disinari. Umumnya photodiode dioperasikan dalam reverse-bias, sehingga arus yang kecil akibat cahaya dapat langsung terdeteksi. Photodiode digunakan untuk mendeteksi cahaya (photodetector).</li>
+	<li>Gunn Diode: Gunn Diode adalah jenis diode yang tidak memiliki PN Junction, melainkan hanya terdiri dari dua elektroda. Dioda jenis ini dapat digunakan untuk menghasilkan sinyal gelombang mikro.</li>
+	<li>BARITT Diode: BARITT (Barrier Injection Transit Time) Diode adalah jenis diode yang bekerja dengan prinsip emisi termionik. Dioda ini digunakan untuk memproduksi sinyal gelombang mikro dengan level derau yang rendah.</li>
+	<li>Tunnel Diode: Tunnel Diode adalah dioda yang bekerja memanfaatkan salah satu fenomena mekanika kuantum yaitu tunneling. Tunnel junction digunakan sebagai salah satu komponen pada osilator, penguat, atau pencampur sinyal, terutama karena kecepatannya bereaksi terhadap perubahan tegangan.</li>
+	<li>Backward Diode: Backward diode memiliki karakteristik serupa dengan tunnel, perbedannya terletak pada adanya sisi yang diberi doping lebih rendah dibanding sisi yang berlawanan. Perbedaan profil doping ini membuat backward diode memiliki karakteristik tegangan-arus yang serupa pada kondisi reverse dan forward.</li>
+	<li>PIN Diode: Pada dioda PIN, terdapat area semikonduktor intrinsic (tanpa doping) yang diletakkan antara P dan N junction. Efek dari penambahan area intrinsic tersebut adalah melebarnya area deplesi yang membatasi pergerakan elektron, dan hal ini tepat digunakan untuk aplikasi pensinyalan (switching).</li>
+	<li>Schottky Diode: Pada Schottky diode diberikan tambahan metal pada cuplikan permukaan bagian tengah semikonduktor. Karakteristik yang menjadi keunggulan dioda ini adalah tegangan aktivasi yang rendah dan waktu pemulihan yang singkat. Dioda ini sangat umum digunakan untuk rangkaian elektronik berfrekuensi tinggi, seperti perangkat-perangkat radio dan gerbang logika.</li>
+	<li>Step Recovery Diode: Bagian semikonduktor pada dioda ini memiliki level doping yang secara gradual menurun dengan titik terendah di junction. Modifikasi ini dapat mengurangi waktu switching karena muatan yang ada pada daerah junction lebih sedikit. Aplaikasi dari semikonduktor ini adalah pada alat-alat elektronik frekuensi radio.</li>
+	<li>Varactor Diode: Diaplikasikan pada mode reverse biasa dengan lapisan penghalang yang dapat berubah-ubah sesuai tegangan diberikan. Hal ini membuat dioda ini seolah-olah merupakan suatu kapasitor.</li>
+	<li>Zener diode: Memiliki karakteristik khusus yang mengingkan efek breakdown saat reverse bias Dioda ini dapat menghasilkan tegangan yang tetap dan umum digunakan sebagai penghasil tegangan referensi di rangkaian elektronik.</li>
+</ol>
+<br>
+<h3>Cara Kerja</h3>
+<ol>
+	<li>Kondisi tanpa tegangan</li>
+	<img src="ktt.jpeg">
+	<p>Pada kondisi tidak diberikan tegangan akan terbentuk suatu perbatasan medan listrik pada daerah P-N junction. Hal ini terjadi diawali dengan proses difusi, yaitu bergeraknya muatan elektro dari sisi n ke sisi p. Elektron-elektron tersebut akan menempati suatu tempat di sisi p yang disebut dengan holes. Pergerakan elektron-elektron tersebut akan meninggalkan ion positif di sisi n, dan holes yang terisi dengan elektron akan menimbulkan ion negatif di sisi p. Ion-ion tidak bergerak ini akan membentuk medan listrik statis yang menjadi penghalang pergerakan elektron pada dioda.</p>
+	<li>Kondisi tegangan positif (Forward-bias)</li>
+	<img src="ktp.jpeg">
+	<p>Pada kondisi ini, bagian anoda disambungkan dengan terminal positif sumber listrik dan bagian katoda disambungkan dengan terminal negatif. Adanya tegangan eksternal akan mengakibatkan ion-ion yang menjadi penghalang aliran listrik menjadi tertarik ke masing-masing kutub. Ion-ion negatif akan tertarik ke sisi anoda yang positif, dan ion-ion positif akan tertarik ke sisi katoda yang negatif. Hilangnya penghalang-penghalang tersebut akan memungkinkan pergerakan elektron di dalam dioda, sehingga arus listrik dapat mengalir seperti pada rangkaian tertutup.</p>
+	<li>Kondisi tegangan negatif (Reverse-bias)</li>
+	<img src="ktn.jpeg">
+	<p>Pada kondisi ini, bagian anoda disambungkan dengan terminal negatif sumber listrik dan bagian katoda disambungkan dengan terminal positif. Adanya tegangan eksternal akan mengakibatkan ion-ion yang menjadi penghalang aliran listrik menjadi tertarik ke masing-masing kutub. Pemberian tegangan negatif akan membuat ion-ion negatif tertarik ke sisi katoda (n-type) yang diberi tegangan positif, dan ion-ion positif tertarik ke sisi anoda (p-type) yang diberi tegangan negatif. Pergerakan ion-ion tersebut searah dengan medan listrik statis yang menghalangi pergerakan elektron, sehingga penghalang tersebut akan semakin tebal oleh ion-ion. Akibatnya, listrik tidak dapat mengalir melalui dioda dan rangkaian diibaratkan menjadi rangkaian terbuka.</p>
+</ol>
 <hr>
 <h4>Sekarang yuk coba simulasi rangkaian diatas dengan tinkercad :</h4>
 <a href="https://www.tinkercad.com/">Gabung Tinkercad</a>
