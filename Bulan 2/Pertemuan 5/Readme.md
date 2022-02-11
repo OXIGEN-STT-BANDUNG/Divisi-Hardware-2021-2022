@@ -90,7 +90,7 @@
 <hr>
 
 <h2>Transistor</h2>
-### Definisi
+<h3>Definisi</h3>
 <p>Transistor adalah komponen semikonduktor yang memiliki berbagai macam fungsi seperti sebagai penguat, pengendali, penyearah, osilator, modulator dan lain sebagainya.</p>
 <br>
 <h3>Jenis-jenis Transistor</h3>
@@ -102,20 +102,20 @@
 	<p>Jenis-jenis transistor bipolar</p>
 	<img src="npn-pnp.jpg">
 	<ul>
-		<li>Transistor NPN adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan positif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Kolektor ke Emitor.</li>
-		<li>Transistor PNP adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan negatif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Emitor ke Kolektor.</li>
+		<li><b>Transistor</b> NPN adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan positif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Kolektor ke Emitor.</li>
+		<li><b>Transistor</b> PNP adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan negatif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Emitor ke Kolektor.</li>
 	</ul>
 	<li>Transistor Efek Medan (FET:Field Effect Transistor)</li>
 	<ul>
-		<li>JFET (Junction Field Effect Transistor) adalah Transistor Efek Medanyang menggunakan persimpangan (junction) p-n bias terbalik sebagai isolator antara Gerbang (Gate) dan Kanalnya. JFET terdiri dari dua jenis yaitu JFET Kanal P (p-channel) dan JFET Kanal N (n-channel). JFET terdiri dari tiga kaki terminal yang masing-masing terminal tersebut diberi nama Gate (G), Drain (D) dan Source (S).</li>
-		<li>MOSFET (Metal Oxide Semiconductor Field Effect Transistor) adalah Transistor Efek Medan yang menggunakan Isolator (biasanya menggunakan Silicon Dioksida atau SiO2) diantara Gerbang (Gate) dan Kanalnya. MOSFET ini juga terdiri dua jenis konfigurasi yaitu MOSFET Depletion dan MOSFET Enhancement yang masing-masing jenis MOSFET ini juga terbagi menjadi MOSFET Kanal-P (P-channel) dan MOSFET Kanal-N (N-channel). MOSFET terdiri dari tiga kaki terminal yaitu Gate (G), Drain (D) dan Source (S).</li>
-		<li>UJT (Uni Junction Transistor) adalah jenis Transistor yang digolongkan sebagai Field Effect Transistor (FET) karena pengoperasiannya juga menggunakan medan listrik atau tegangan sebagai pengendalinya. Berbeda dengan jenis FET lainnya, UJT mememiliki dua terminal Basis (B1 dan B2) dan 1 terminal Emitor. UJT digunakan khusus sebagai pengendali (switch) dan tidak dapat dipergunakan sebagai penguat seperti jenis transistor lainnya.</li>
+		<li><b>JFET (Junction Field Effect Transistor)</b> adalah Transistor Efek Medanyang menggunakan persimpangan (junction) p-n bias terbalik sebagai isolator antara Gerbang (Gate) dan Kanalnya. JFET terdiri dari dua jenis yaitu JFET Kanal P (p-channel) dan JFET Kanal N (n-channel). JFET terdiri dari tiga kaki terminal yang masing-masing terminal tersebut diberi nama Gate (G), Drain (D) dan Source (S).</li>
+		<li><b>MOSFET (Metal Oxide Semiconductor Field Effect Transistor)</b> adalah Transistor Efek Medan yang menggunakan Isolator (biasanya menggunakan Silicon Dioksida atau SiO2) diantara Gerbang (Gate) dan Kanalnya. MOSFET ini juga terdiri dua jenis konfigurasi yaitu MOSFET Depletion dan MOSFET Enhancement yang masing-masing jenis MOSFET ini juga terbagi menjadi MOSFET Kanal-P (P-channel) dan MOSFET Kanal-N (N-channel). MOSFET terdiri dari tiga kaki terminal yaitu Gate (G), Drain (D) dan Source (S).</li>
+		<li><b>UJT (Uni Junction Transistor)</b> adalah jenis Transistor yang digolongkan sebagai Field Effect Transistor (FET) karena pengoperasiannya juga menggunakan medan listrik atau tegangan sebagai pengendalinya. Berbeda dengan jenis FET lainnya, UJT mememiliki dua terminal Basis (B1 dan B2) dan 1 terminal Emitor. UJT digunakan khusus sebagai pengendali (switch) dan tidak dapat dipergunakan sebagai penguat seperti jenis transistor lainnya.</li>
 	</ul>
 </ol>
 <hr>
 
 <h2>Diode</h2>
-### Definisi
+<h3>Definisi</h3>
 
 <hr>
 <h4>Sekarang yuk coba simulasi rangkaian diatas dengan tinkercad :</h4>
@@ -129,3 +129,5 @@
 <a href="https://amperite.com/blog/relays/">www.amperite.com/blog/relays/</a>
 <br>
 <a href="https://teknikelektronika.com/pengertian-transistor-jenis-jenis-transistor/">www.teknikelektronika.com/pengertian-transistor-jenis-jenis-transistor/</a>
+<br>
+<a href="https://circuitglobe.com/transistor.html">www.circuitglobe.com/transistor.html</a>
