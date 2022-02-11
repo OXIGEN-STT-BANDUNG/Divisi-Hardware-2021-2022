@@ -199,3 +199,9 @@ Transistor merupakan  perangkat  non-linear sehingga memiliki cara kerja dalam 4
 <a href="https://teknikelektronika.com/pengertian-transistor-jenis-jenis-transistor/">www.teknikelektronika.com/pengertian-transistor-jenis-jenis-transistor/</a>
 <br>
 <a href="https://circuitglobe.com/transistor.html">www.circuitglobe.com/transistor.html</a>
+<br>
+<a href="https://www.kreditpintar.com/education/cara-kerja-transistor">www.kreditpintar.com/education/cara-kerja-transistor</a>
+<br>
+<a href="https://rumus.co.id/dioda/">www.rumus.co.id/dioda/</a>
+<br>
+<a href="https://www.studiobelajar.com/dioda/">www.studiobelajar.com/dioda/</a>
