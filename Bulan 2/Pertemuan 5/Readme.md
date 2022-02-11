@@ -90,6 +90,7 @@
 <hr>
 
 <h2>Transistor</h2>
+<img src="trans.JPG">
 <h3>Definisi</h3>
 <p>Transistor adalah komponen semikonduktor yang memiliki berbagai macam fungsi seperti sebagai penguat, pengendali, penyearah, osilator, modulator dan lain sebagainya.</p>
 <br>
@@ -112,6 +113,25 @@
 		<li><b>UJT (Uni Junction Transistor)</b> adalah jenis Transistor yang digolongkan sebagai Field Effect Transistor (FET) karena pengoperasiannya juga menggunakan medan listrik atau tegangan sebagai pengendalinya. Berbeda dengan jenis FET lainnya, UJT mememiliki dua terminal Basis (B1 dan B2) dan 1 terminal Emitor. UJT digunakan khusus sebagai pengendali (switch) dan tidak dapat dipergunakan sebagai penguat seperti jenis transistor lainnya.</li>
 	</ul>
 </ol>
+<br>
+<h3>Cara Kerja</h3>
+Transistor merupakan  perangkat  non-linear sehingga memiliki cara kerja dalam 4 mode yang berbeda.
+<ul>
+	<li>Cut-off. Transistor bekerja sebagai open circuit, sehingga tidak terdapat arus yang mengalir ke emitor ke kolektor. </li>
+	<li>Saturasi. Transistor bertindak sebagai short circuit,  yang membuat arus dari kolektor ke emitor mengalir bebas. </li>
+	<li>Active. Arus yang berbanding lurus dengan arus yang mengalir ke basis merupakan arus dari kolektor ke emitor.</li>
+	<li>Reverse active.  Berbanding terbalik dengan mode sebelumnya, arus mengalir terbalik dari emitor ke kolektor. </li>
+</ul>
+<p>secara umum transistor dibedakan menjadi dua yaitu bipolar dan JFET atau Junction FET. Cara kerja dari kedua transistor ini juga berbeda.</p>
+<ol>
+	<li><b>Cara Kerja Transistor Bipolar</b></li>
+	<p>Transistor bipolar merupakan salah satu jenis transistor yang paling populer sehingga banyak digunakan. Transistor bipolar ini terdiri dari 3 kaki yaitu emitor, basis dan kolektor. Pada kaki tersebut terdapat tegangan penghalang sekitar 0,5 hingga 0,7 V yang berarti dibutuhkan tegangan listrik paling minimal 0,5 hingga 0,7  untuk dapat membuat arus listrik mengalir melalui kaki transistor bipolar.</p>
+	<p>Cara kerja dari transistor bipolar yaitu dengan membuat komponen aktif dan tiga terminal yang terbuat dari  bahan semikonduktor dapat bertindak sebagai isolator dan konduktor. Cara kerja inilah yang membuat transistor bipolar sering digunakan untuk saklar atau penguat. </p>
+	<li><b>Cara Kerja Transistor JFET</b></li>
+	<p>Transistor JFET atau junction field effect transistor merupakan transistor yang menggunakan tegangan pada terminal inputnya. Hal seperti ini dalam dunia rangkaian elektronika dikenal dengan istilah gerbang. Gerbang ini akan menghasilkan arus keluaran yang sebanding dengan mengendalikan arus yang akan mengalir melalui kaki terminal komponen. Hal inilah yang membuat transistor JFET dikenal juga  dengan  transistor yang dapat mengatur tegangan. </p>
+	<p>Sama halnya dengan transistor bipolar, transistor JFET juga memiliki tiga kaki terminal yang terbuat dari bahan semikonduktor. Akan tetapi, ketiga memiliki nama yang berbeda yaitu gate, source dan drain. Selain itu, ketiga terminal tersebut juga memiliki karakteristik yang unik yang dapat mengalirkan arus ke daerah drain dan source. Akan tetapi,  arus yang dialirkan tersebut dikendalikan  oleh tegangan tertentu yang diberikan kepada gate.</p>
+</ol>
+
 <hr>
 
 <h2>Diode</h2>
