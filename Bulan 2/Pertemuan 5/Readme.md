@@ -102,8 +102,8 @@
 	<p>Jenis-jenis transistor bipolar</p>
 	<img src="npn-pnp.jpg">
 	<ul>
-		<li><b>Transistor</b> NPN adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan positif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Kolektor ke Emitor.</li>
-		<li><b>Transistor</b> PNP adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan negatif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Emitor ke Kolektor.</li>
+		<li><b>Transistor NPN</b> adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan positif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Kolektor ke Emitor.</li>
+		<li><b>Transistor PNP</b> adalah transistor bipolar yang menggunakan arus listrik kecil dan tegangan negatif pada terminal Basis untuk mengendalikan aliran arus dan tegangan yang lebih besar dari Emitor ke Kolektor.</li>
 	</ul>
 	<li>Transistor Efek Medan (FET:Field Effect Transistor)</li>
 	<ul>
