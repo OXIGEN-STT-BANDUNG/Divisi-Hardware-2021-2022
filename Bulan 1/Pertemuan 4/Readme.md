@@ -81,13 +81,18 @@
 <br>
 <hr>
 <p>Sensor HC-SR04 dan Push Button dengan Arduino:</p>
-<a href="https://youtu.be/FuVUWniBEfI">Pertemuan 4 Materi ke-3</a>
+<a href="https://youtu.be/FuVUWniBEfI">Lihat Video Pertemuan-4 Materi ke-3</a>
 
 <br>
 <br>
 <hr>
 <span>Referensi:</span>
+<br>
 <a href="https://www.nn-digital.com/blog/2019/07/31/cara-kerja-sensor-hc-sr04-dan-contoh-program-dengan-arduino/">www.nn-digital.com/blog/2019/07/31/cara-kerja-sensor-hc-sr04-dan-contoh-program-dengan-arduino/</a>
+<br>
 <a href="https://www.andalanelektro.id/2018/09/cara-kerja-dan-karakteristik-sensor-ultrasonic-hcsr04.html">www.andalanelektro.id/2018/09/cara-kerja-dan-karakteristik-sensor-ultrasonic-hcsr04.html</a>
+<br>
 <a href="https://www.aldyrazor.com/2020/05/push-button-arduino.html">www.aldyrazor.com/2020/05/push-button-arduino.html</a>
+<br>
 <a href="https://sciencing.com/electric-relay-5124901.html">www.sciencing.com/electric-relay-5124901.html</a>
+<br>
