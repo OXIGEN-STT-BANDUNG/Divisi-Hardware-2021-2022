@@ -80,7 +80,7 @@
 
 <br>
 <hr>
-<p>Sensor HC-SR04 dan Push Button dengan Arduino:</p>
+<p>Untuk Praktik Simulasinya:</p>
 <a href="https://youtu.be/FuVUWniBEfI">Lihat Video Pertemuan-4 Materi ke-3</a>
 
 <br>
