@@ -1,53 +1,41 @@
 # Pertemuan 4
 
-### Sensor LDR & Relay + Lampu
+## Sensor Ultrasonik + Button
 
-### PHOTORESISTOR (LDR)
+### Sensor HC-SR04
 
-<u><b>Definisi</b></u>
-<blockquote>Photoresistor adalah resistor peka cahaya yang resistansinya berkurang seiring dengan meningkatnya intensitas cahaya.
+<h3><u><b>Definisi</b></u></h3>
+<blockquote>HC-SR04 adalah sebuah modul sensor ultrasonik yang biasanya digunakan untuk alat pengukur jarak.
 </blockquote>
 <br>
-<p>Photoresistor, juga dikenal sebagai LDR (Light Dependant Resistor) adalah perangkat peka cahaya yang paling sering digunakan untuk menunjukkan ada tidaknya cahaya, atau untuk mengukur intensitas cahaya. Dalam gelap, resistansinya sangat tinggi, terkadang hingga 1 MΩ, tetapi ketika sensor LDR terkena cahaya, resistansinya turun drastis, bahkan hingga beberapa ohm, tergantung pada intensitas cahaya. LDR memiliki sensitivitas yang bervariasi dengan panjang gelombang cahaya yang diterapkan dan merupakan perangkat nonlinier.<p>
+<p>Pada HC-SR04 terdapat sepasang transducer ultrasonik yang satu berfungsi sebagai transmitter yang bertugas untuk mengubah sinyal elektrik menjadi sinyal pulsa gelombang suara ultrasonik dengan frekuensi 40KHz, dan satunya berfungsi sebagai receiver yang bertugas untuk menerima sinyal gelombang suara ultrasonik.<p>
 <figure>
-	<img src="favpng_light-photoresistor-sensor-photodetector.png" alt="LDR-grafik">
-	<figcaption style="text-align: center;"><center>Gambar fisik Photoresistor/LDR</center></figcaption>
-</figure><br>
-
-<u><b>Simbol</b></u>
-<figure>
-	<img src="LDR-Symbol.jpg" alt="LDR-Symbol">
+	<img src="hc-sr04.jpg" alt="hc-sr04">
+	<figcaption style="text-align: center;"><center>Gambar fisik Sensor HC-SR04</center></figcaption>
 </figure>
-
-<u><b>Struktur LDR</b></u>
-<figure>
-	<img src="resistor-light-dependent-photoresistor-structure-01.svg" alt="Struktur 1 LDR">
-	<img src="resistor-light-dependent-photoresistor-structure-02.svg">
-  </figure>
-
-<u><b>Tipe berdasarkan materialnya</b></u>
+<p>Apa itu gelombang ultrasonik? Gelombang suara ultrasonik adalah sebuah gelombang suara dengan frekuensi yang berada diatas batas pendengaran manusia. Seperti yang kita ketahui bahwasannya batas pendengaran manusia berada pada rentang frekuensi 20Hz – 20KHz.</p>
+<br>
+<h3><u><b>Pin dan Fungsinya</b></u></h3>
+<img src="pin-hcsr04.png" alt="pin-pinnya">
 <ol>
-	<li><b>Intrinsik</b></li>
-	<p>Ini terbuat dari bahan semikonduktor murni seperti silikon atau germanium. Elektron tereksitasi ke pita konduksi dari pita valensi ketika foton dengan energi yang cukup jatuh di atasnya dan jumlah pembawa muatan dinaikkan.</p>
-	<li><b>Ekstrinsik</b></li>
-	<p>Ini adalah bahan semikonduktor yang didoping dengan kontaminan yang disebut dopan. Dopan ini menghasilkan pita energi baru di atas pita valensi yang diisi dengan elektron. Oleh karena itu ini mengurangi celah pita. Sehingga lebih sedikit energi yang dibutuhkan dalam menggairahkan mereka. Resistor foto ekstrinsik biasanya digunakan untuk panjang gelombang tinggi.</p>
+	<li>VCC = 5V Power Supply. Pin sumber tegangan positif sensor.</li>
+	<li>Trig = Trigger/Penyulut. Pin ini yang digunakan untuk membangkitkan sinyal ultrasonik.</li>
+	<li>Echo = Receive/Indikator. Pin ini yang digunakan untuk mendeteksi sinyal pantulan ultrasonik.</li>
+	<li>GND = Ground/0V Power Supply. Pin sumber tegangan negatif sensor.</li>
 </ol>
-
-<u><b>Ketergantungan panjang gelombang</b></u>
-<figure>
-	<img src="wavelength-detectivity.png" alt="Diagram grafik panjang gelombang">
-	<figcaption><center>Sensitivitas LDR bervariasi dengan panjang gelombang cahaya. Jika panjang gelombang berada di luar kisaran tertentu, itu tidak akan mempengaruhi resistansi perangkat sama sekali. Dapat dikatakan bahwa LDR tidak sensitif pada rentang panjang gelombang cahaya tersebut. Bahan yang berbeda memiliki kurva respons spektral unik yang berbeda dari panjang gelombang versus sensitivitas.</center></figcaption>
-</figure>
-
-<u><b>Penerapan/Aplikasi</b></u>
-<p>LDR memiliki biaya rendah dan sering digunakan sebagai sensor cahaya. Aplikasi lain dari resistor foto meliputi:</p>
+<br>
+<h3><u><b>Cara Kerja</b></u></h3>
+<img src="caker-hcsr04.png" alt="cara-kerja">
+<p>Sebuah sinyal pulsa dengan durasi setidaknya 10 μS (10 mikrodetik) diterapkan ke pin Trigger. Setelah itu, sensor mentransmisikan gelombang ultrasonik delapan pulsa pada frekuensi 40 KHz. Pola 8-pulsa ini digunakan untuk sebuah penanda sinyal ultrasonik dari modul ini, yang memungkinkan receiver / penerima untuk membedakan pola yang ditransmisikan dari kebisingan ultrasonik sekitar.</p>
+<p>Delapan pulsa ultrasonik bergerak melalui udara menjauh dari transmitter / pemancar mengarah ke benda atau obyek yang ada di depannya. Sementara itu pin Echo menjadi HIGH / TINGGI untuk mulai membentuk awal sinyal gema.</p>
+<p>Jika tidak ada sinyal ultrasonik yang dipantulkan atau diterima oleh receiver selama rentang 38 mS (mili detik), yang artinya tidak ada obyek atau benda maka sinyal Echo akan Timeout dan kembali menjadi LOW / RENDAH.</p>
+<p>Sedangkan jika ada sinyal ultrasonik yang dipantulkan atau diterima oleh receiver, maka saat itu juga sinyal Echo langsung berubah menjadi LOW / RENDAH. Nah, lebar rentang waktu dari sinyal ECHO inilah yang digunakan untuk mengukur jarak antara sensor dengan obyek atau benda.</p>
+<p>Dengan menggunakan persamaan jarak – kecepatan – waktu dari gelombang suara yang merambat pada udara, maka bisa dijabarkan sebagai berikut :</p>
 <ul>
-	<li>Mengklasifikasikan ketersediaan atau ketidaktersediaan cahaya seperti pada light meter kamera.</li>
-	<li>Digunakan dalam desain penerangan jalan (dapat digabungkan dengan starter kit Arduino yang baik untuk bertindak sebagai pengontrol lampu jalan)</li>
-	<li>Digunakan dalam jam alarm</li>
-	<li>Digunakan di sirkuit alarm pembobol rumah</li>
-	<li>Digunakan dalam pengukur intensitas cahaya</li>
-	<li>Digunakan sebagai bagian dari sistem SCADA untuk mengimplementasikan tujuan seperti menghitung jumlah paket pada ban berjalan yang bergerak, dll.</li>
+	<li>Jarak = Kecepatan x Waktu.</li>
+	<p>Dimana kecepatan gelombang suara pada udara adalah = 340 m/s = 0.034 cm/μS. Karena jarak tempuh gelombang suara ultrasonik tadi adalah bolak-balik yaitu dari sensor (transmitter) ke obyek dan kembali ke sensor (receiver), maka rumusnya menjadi :</p>
+	<li>Jarak (cm) = Waktu (μS) * 0.034 / 2</li>
+	<p></p>
 </ul>
 
 
