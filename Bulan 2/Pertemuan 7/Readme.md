@@ -42,6 +42,9 @@
 	<p>Motor ini mirip seperti positional rotation, namun dengan mekanisme gear yang berbeda. Pada Linear Rotation, gearbox tidak bergerak memutar, melainkan maju-mundur atau sebaliknya. Gearbox pada jenis ini ditambahkan mekanisme rack and pinion, sehingga memungkinkan gerakan tersebut. Motor ini jarang ditemukan karena peruntukannya pada skala industri tertentu. </p>
 </ol>
 <br>
+<h3><b>Contoh Rangkaiannya</b></h3>
+<img src="servora.gif" alt="rangkaian-servo">
+<br>
 <h3><b>Kekurangan dan Kelebihan</b></h3>
 <p>Kelebihan: </p>
 <ul>
@@ -57,6 +60,7 @@
 <ul>
 	<li>Biaya mahal</li>
 </ul>
+<br>
 <h3><b>Contoh Penerapannya</b></h3>
 <br>
 <img src="arm-robot.jpg" alt="lengan-robot">
