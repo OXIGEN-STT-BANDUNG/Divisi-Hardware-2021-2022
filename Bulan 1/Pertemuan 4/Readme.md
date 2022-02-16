@@ -37,11 +37,57 @@
 	<li>Jarak (cm) = Waktu (μS) * 0.034 / 2</li>
 	<p></p>
 </ul>
+<br>
+<br>
+<hr>
+<h2>Push Button</h2>
+<br>
+<h3><u><b>Definisi</b></u></h3>
+<blockquote>Push button (juga dieja tombol tekan) atau tombol sederhana adalah mekanisme sakelar sederhana untuk mengontrol beberapa aspek mesin atau proses. Dimana dengan memutus dan mengalirkan arus listrik dalam suatu rangkaian</blockquote>
+<img src="push-button-tactile.jpg" alt="push-button">
+<br>
+<h3><u><b>Konstruksi</b></u></h3>
+<p>Push button switch adalah mekanisme kecil tertutup yang melengkapi sirkuit listrik saat ditekan. Saat menyala, pegas logam kecil di dalamnya membuat kontak dengan dua kabel, memungkinkan listrik mengalir. Saat dimatikan, pegas memendek, kontak terputus, dan arus tidak akan mengalir. Tubuh sakelar terbuat dari plastik non-konduktor.</p>
+<br>
+<h3><u><b>Fungsi</b></u></h3>
+<p>Seperti yang dijelaskan pada poin sebelumnya, bahwa fungsi push button adalah untuk memutus dan menyambungkan arus listrik. Biasanya push button ini digunakan untuk memicu jalannya suatu perangkat output seperti relay, buzzer, LED, maupun yang lainnya.</p>
+<br>
+<h3><u><b>Cara kerja</b></u></h3>
+<ul>
+	<li>Momentary Contact</li>
+	<p>Sakelar sesaat hanya berfungsi selama Anda menekannya, seperti tombol pada telepon, kalkulator, atau bel pintu. Mereka dapat dibagi lagi menjadi tipe normal-on dan biasanya-mati.</p>
+	<ul>
+		<li>Normally-Off</li>
+		<p>Dengan sakelar yang biasanya mati, tidak ada koneksi sampai Anda menekan tombol. Sebagian besar sakelar tombol tekan digunakan dengan cara ini. Contohnya termasuk tombol bel pintu, kunci ponsel dan pembuka pintu garasi.</p>
+		<li>Normali-On</li>
+		<p>Di sini sakelar berfungsi secara normal, tetapi memutus sirkuit saat Anda menekannya. Ini lebih khusus, dan dapat digunakan bersama dengan trik pengkabelan. Misalnya, menghubungkan sakelar yang biasanya aktif secara paralel dengan bola lampu akan menyalakan bola lampu saat tombol ditekan; jika tidak, arus akan mengalir melalui sakelar, membiarkan bohlam mati.</p>
+	</ul>
+	<li>Non-Momentary Contact</li>
+	<p>Sakelar non-sementara mengambil satu dorongan untuk menghidupkan, yang lain untuk mematikan. TV dan stereo menggunakan sakelar non-sementara untuk tombol dayanya.</p>
+	<p>Sehingga pada saat ditekan, ia akan memutus arus listrik. Serta kembali ke posisi semua apabila dilepas.</p>
+</ul>
+<br>
+<h3><u><b>Jenis</b></u></h3>
+<img src="pushbtns.jpg">
+<ol>
+	<li>Push Button NO (Normally Open)</li>
+	<p>Jenis push button ini akan menyambungkan arus listrik saat ditekan, dan akan kembali seperti semula saat dilepas. Fungsi push button NO biasanya untuk membuat tombol mulai atau start.</p>
+	<li>Push Button NC (Normally Close)</li>
+	<p>Fungsi push button NC adalah kebalikan dari NO dan sering disebut sebagai tombol emergency atau stop. Dalam kondisi awal, ia bersifat mengalirkan arus listrik.</p>
+	<li>Push Button Perpaduan NO dan NC</li>
+	<p>Untuk jenis yang satu ini memiliki empat kaki terminal kontak. Dimana pada saat tombol ditekan, maka sepasang terminal kontaknya akan berada dalam NC, sedangkan dua lainnya NO. Sehingga apabila push button ditekan lagi untuk yang kedua kalinya, maka akan terjadi sebaliknya. Sampai sini kamu sudah paham kan fungsi push button NO dan NC.</p>
+</ol>
 
-
+<br>
+<hr>
+<p>Sensor HC-SR04 dan Push Button dengan Arduino:</p>
+<a href="https://youtu.be/FuVUWniBEfI">Pertemuan 4 Materi ke-3</a>
 
 <br>
 <br>
-<i>source1: https://eepower.com/resistor-guide/resistor-types/photo-resistor/#</i><br>
-<i>source2: https://engineeringlearn.com/what-is-ldr-photoresistor-types-working-application-diagram-symbol-complete-details/</i><br>
-<i>source3: https://www.electronics-notes.com/articles/electronic_components/resistors/light-dependent-resistor-ldr.php</i>
+<hr>
+<span>Referensi:</span>
+<a href="https://www.nn-digital.com/blog/2019/07/31/cara-kerja-sensor-hc-sr04-dan-contoh-program-dengan-arduino/">www.nn-digital.com/blog/2019/07/31/cara-kerja-sensor-hc-sr04-dan-contoh-program-dengan-arduino/</a>
+<a href="https://www.andalanelektro.id/2018/09/cara-kerja-dan-karakteristik-sensor-ultrasonic-hcsr04.html">www.andalanelektro.id/2018/09/cara-kerja-dan-karakteristik-sensor-ultrasonic-hcsr04.html</a>
+<a href="https://www.aldyrazor.com/2020/05/push-button-arduino.html">www.aldyrazor.com/2020/05/push-button-arduino.html</a>
+<a href="https://sciencing.com/electric-relay-5124901.html">www.sciencing.com/electric-relay-5124901.html</a>
