@@ -49,11 +49,18 @@
 	<li>Digunakan dalam pengukur intensitas cahaya</li>
 	<li>Digunakan sebagai bagian dari sistem SCADA untuk mengimplementasikan tujuan seperti menghitung jumlah paket pada ban berjalan yang bergerak, dll.</li>
 </ul>
-
-
+<br>
+<hr>
+<p>Untuk praktik simulasinya:</p>
+<a href="https://youtu.be/j8izmaLIM3o">Lihat Video Pertemuan-3 Materi ke-2</a>
 
 <br>
 <br>
-<i>source1: https://eepower.com/resistor-guide/resistor-types/photo-resistor/#</i><br>
-<i>source2: https://engineeringlearn.com/what-is-ldr-photoresistor-types-working-application-diagram-symbol-complete-details/</i><br>
-<i>source3: https://www.electronics-notes.com/articles/electronic_components/resistors/light-dependent-resistor-ldr.php</i>
+<hr>
+<p>Referensi:</p>
+<br>
+<a href="https://eepower.com/resistor-guide/resistor-types/photo-resistor/#">www.eepower.com/resistor-guide/resistor-types/photo-resistor/#</a>
+<br>
+<a href="https://engineeringlearn.com/what-is-ldr-photoresistor-types-working-application-diagram-symbol-complete-details/">www.engineeringlearn.com/what-is-ldr-photoresistor-types-working-application-diagram-symbol-complete-details/</a>
+<br>
+<a href="https://www.electronics-notes.com/articles/electronic_components/resistors/light-dependent-resistor-ldr.php">www.electronics-notes.com/articles/electronic_components/resistors/light-dependent-resistor-ldr.php</a>
